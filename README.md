@@ -1,0 +1,1 @@
+# coolculator-privacy
