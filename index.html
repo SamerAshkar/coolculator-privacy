@@ -17,12 +17,12 @@
 <body>
 
     <h1>Privacy Policy</h1>
-    <p><strong>Last Updated:</strong> August 2026</p>
+    <p><strong>Last Updated:</strong> June 2026</p>
 
     <p>This Privacy Policy describes how <strong>Coolculator</strong> (the "Game"), created by <strong>Samer Ashkar</strong>, handles your information. I am committed to ensuring that your player privacy is protected while you enjoy the Game.</p>
 
     <div class="highlight-box">
-        <strong>Privacy Commitment:</strong> Coolculator is designed to be a private gaming experience. We do not collect real-world identity data (like names or emails), and we never sell your gameplay progress to third parties.
+        <strong>Privacy Commitment:</strong> Coolculator is designed to be a private gaming experience. We do not collect real-world identity data (like names or emails) directly, and we never sell your gameplay progress to third parties.
     </div>
 
     <h2>1. Gameplay Data & Usage</h2>
@@ -36,17 +36,18 @@
     </ul>
     
     <h2>2. Storage & Progress Syncing</h2>
-    <p>To ensure your progress is never lost, the Game uses two methods of storage:</p>
+    <p>To ensure your progress is never lost, the Game uses three methods of storage:</p>
     <ul>
         <li><strong>Local Storage:</strong> Your progress is saved directly to your device so you can play without an active connection.</li>
-        <li><strong>Cloud Sync (Firebase):</strong> The Game uses Google Firebase to back up your progress. This uses <strong>Anonymous Authentication</strong>; while a unique ID is assigned to your save file to allow syncing across sessions, it is never linked to your identity, name, or contact details.</li>
+        <li><strong>Cloud Sync (Firebase):</strong> The Game uses Google Firebase to back up your progress. This uses Anonymous Authentication; while a unique ID is assigned to your save file, it is not linked to your identity or contact details.</li>
+        <li><strong>Cloud Save (Google Play Games):</strong> The Game uses Google Play Games Services "Snapshots" to securely store your progress in the cloud. This data is linked to your Google Play Games profile, allowing you to restore your accomplishments even after reinstalling the Game or switching devices.</li>
     </ul>
 
     <h2>3. Audio & Permissions</h2>
-    <p>The Game generates all sound effects and music locally using the Web Audio API. It does <strong>not</strong> require or request access to your device's microphone, camera, contacts, or photo gallery. No audio or visual data from your device is recorded or transmitted.</p>
+    <p>The Game generates all sound effects and music locally using the Web Audio API. It does <strong>not</strong> require or request access to your device's microphone, camera, contacts, or photo gallery.</p>
 
     <h2>4. Third-Party Services</h2>
-    <p>We use <strong>Google Firebase</strong> (Firestore and Auth) exclusively for save-game hosting and progress synchronization. We do not use third-party advertising networks, analytics trackers, or social media plugins that monitor your behavior outside of the Game.</p>
+    <p>We use <strong>Google Firebase</strong> (Firestore and Auth) and <strong>Google Play Games Services</strong> exclusively for save-game hosting and progress synchronization. We do not use third-party advertising networks, analytics trackers, or social media plugins that monitor your behavior outside of the Game.</p>
 
     <h2>5. Children’s Privacy</h2>
     <p>Coolculator is intended for players of all ages. Because the Game does not collect names, locations, or contact info, it is compliant with standard privacy regulations regarding children and does not solicit data from users under the age of 13.</p>
